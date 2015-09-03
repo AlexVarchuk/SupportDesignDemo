@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TabFragmentAdapter adapter = new TabFragmentAdapter(getSupportFragmentManager());
         adapter.addFragment(new SimpleListFragment(), "Tab 1");
         adapter.addFragment(new SimpleListFragment(), "Tab 2");
-        adapter.addFragment(new SimpleListFragment(), "Long tab 3");
+        adapter.addFragment(new SimpleListFragment(), "Tab 3");
         adapter.addFragment(new SimpleListFragment(), "Tab 4");
         adapter.addFragment(new SimpleListFragment(), "Tab 5");
         adapter.addFragment(new SimpleListFragment(), "Tab 6");
