@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -20,6 +21,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_second);
         mCustomLayout = (TextInputLayout) findViewById(R.id.tilCustom);
         mCustomEdit = (EditText) findViewById(R.id.etCustom);
+        Log.d("TAG", "start second activity");
 
         mFieldOneLayout = (TextInputLayout) findViewById(R.id.tilFieldOne);
         mFieldOneEdit = (EditText) findViewById(R.id.etFieldOne);
